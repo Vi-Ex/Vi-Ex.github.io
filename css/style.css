@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, #0c9172, #034d3b);
+    background-image: url(../img/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #0c272b;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 70%;
+    height: 50px;
+
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.viex{
+    width: 50px;
+    height: 50px;
+}
+
+li{
+    align-items: right;
+    text-align: right;
+    align-content: right;
+    position: relative;
+    top: -50px;
+}
+
+.viexlogo{
+    position: relative;
+    top: -10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1B6771;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #135255;
+}
+
+.carousel-inner {
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #0000006b;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    align-content: center;
+}
+
+.viexcarousel {
+    width: 50% !important;
+    height: 500px !important;
+    border-radius: 15px;
+    position: relative;
+    top: -100px;
+}
+
+.vermas{
+    position: absolute;
+    top: 185%;
+}
+
+.vermas2{
+    position: absolute;
+    top: 165%;
+}
+
+.carousel-item {
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselinfo{
+    position: relative;
+    left: 30px;
+    bottom:55%;
+    box-sizing: border-box;
+}
+
+.info{
+    width: 250px;
+    align-items: left;
+    position: relative;
+    right: 73.5%;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.ucu{
+    background-color: #000000;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    width: 450px !important;
+    border-radius: 15px;
+}
+
+.equipo{
+    background-color: #000000;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 400px !important;
+    border-radius: 15px;
+}
+
+.carousel-indicators {
+    position: relative;
+    bottom: 10%;
+    border: 0px;
+    height: 50px;
+}
+
+.carousel-indicators div {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    border: 5px;
+    border-color: black;
+}
+
+p{
+    float: right;
+    vertical-align: top;
+    position: relative;
+    top: 200px;
+    right: 20px ;
+}
+
+.carousel-indicators .active {
+    background-color: #01C38E;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+@media (max-width: 1000px) {
+    button {
+        padding: 8px 16px;
+    }
+
+    .ucu {
+        display: none;
+    }
+
+    .viexcarousel{
+        display: none;
+    }
+
+    .equipo{
+        display: none;
+    }
+
+    .info{
+        position: relative;
+        right: 30%;
+    }
+}

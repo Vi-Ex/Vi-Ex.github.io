@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Viex</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="menu-icon" id="menuIcon">&#9776;</div>
+      <div class="viexlogo">
+        <img class="viex" src="img/viex2.png" alt="">
+      </div>
+      <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicio.html">Servicio</a></li>
+        <li><a href="contacto.html">Contactos</a></li>
+        <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <p>El lugar donde tu visión se convierte en éxito.</p>
+        <img src="img/viex.png" class="d-block w-100 viexcarousel" alt="...">
+      </div>
+      <div class="carousel-item carouselinfo">
+        <p class="info">SERVICIOS<br>En ViEx ofrecemos desarrollo de software a medida, soporte técnico continuo y consultoría IT para impulsar el crecimiento y eficiencia.</p>
+        <button class="vermas" onclick="window.location.href='servicio.html'">Ver Más</button>
+        <img src="img/equipoindex.jpg" class="ucu" alt="">
+      </div>
+      <div class="carousel-item carouselinfo">
+        <p class="info">NUESTRO EQUIPO<br>En Viex, somos expertos en desarrollo de software y nos especializamos en crear soluciones tecnológicas a medida para ayudar a nuestros clientes en su transformación digital.</p>
+        <button class="vermas2" onclick="window.location.href='sobrenosotros.html'">Ver Más</button>
+        <img src="img/equipo.jpg" class="equipo" alt="">
+      </div>
+    </div>
+    <div class="carousel-indicators">
+      <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></div>
+      <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></div>
+      <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="js/inicio.js"></script>
+</body>
+</html>
